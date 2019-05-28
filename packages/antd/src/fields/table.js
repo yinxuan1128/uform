@@ -296,7 +296,6 @@ registerFormField(
                       key='operations'
                       title={locale.operations}
                       dataIndex='operations'
-                      width={180}
                       cell={(item, index) => {
                         return (
                           <div className='array-item-operator'>
